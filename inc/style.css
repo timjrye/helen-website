@@ -1,9 +1,11 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
-html, body{
-	height:100%;
+
+html,
+body {
+	height: 100%;
 	overflow-y: scroll;
 	background-color: #eee;
 	text-align: justify;
@@ -16,7 +18,8 @@ html, body{
 	background-repeat: repeat-y;
 	background-position: center top;
 }
-#mainwrapper{
+
+#mainwrapper {
 	width: 910px;
 	min-height: 100%;
 	background-color: #fff;
@@ -25,7 +28,8 @@ html, body{
 	margin-bottom: 0px;
 	margin-left: auto;
 }
-#main{
+
+#main {
 	width: 900px;
 	background-color: #fff;
 	margin-top: 0;
@@ -33,7 +37,9 @@ html, body{
 	margin-bottom: 0px;
 	margin-left: auto;
 }
-h1{                                                                 /* h1 */
+
+h1 {
+	/* h1 */
 	font-size: 35px;
 	line-height: 40px;
 	font-family: Asap, Verdana, Arial, Helvetica, sans-serif;
@@ -41,54 +47,65 @@ h1{                                                                 /* h1 */
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
-h2{                                                                 /* h3 */
-	font-size:25px;
-	line-height:30px;
+
+h2 {
+	/* h3 */
+	font-size: 25px;
+	line-height: 30px;
 	font-family: Asap, Verdana, Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
-h3{                                                                 /* h4 */
-	font-size:12px;
-	line-height:16px;
+
+h3 {
+	/* h4 */
+	font-size: 12px;
+	line-height: 16px;
 	font-weight: bold;
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
-a:link{
+
+a:link {
 	color: #65b3ce;
 	text-decoration: none;
 	cursor: pointer;
 }
-a:visited{
+
+a:visited {
 	color: #65b3ce;
 	text-decoration: none;
 }
-a:active{
+
+a:active {
 	color: #65b3ce;
 	text-decoration: none;
 }
-a:hover{
+
+a:hover {
 	color: #4ac9f4;
 	text-decoration: underline;
 }
-p + p {                                        								/* paragraphs */
+
+p+p {
+	/* paragraphs */
 	margin-top: 10px;
 }
 
-span.email{
+span.email {
 	color: #65b3ce;
 	text-decoration: none;
 	cursor: pointer;
 }
-span.email:hover{
+
+span.email:hover {
 	color: #4ac9f4;
 	text-decoration: underline;
 	cursor: pointer;
 }
 
-#header{
+#header {
 	width: 100%;
 	background-color: #fff;
 	margin: 0px;
@@ -96,33 +113,38 @@ span.email:hover{
 	overflow: hidden;
 }
 
-#topimage{
+#topimage {
 	position: relative;
 }
-#topimage #headertitles{
+
+#topimage #headertitles {
 	position: absolute;
 	top: 40px;
 	left: 40px;
 }
-#topimage #headercontact{
+
+#topimage #headercontact {
 	position: absolute;
 	bottom: 15px;
 	left: 40px;
 }
-#topimage h1{
+
+#topimage h1 {
 	font-size: 55px;
 	line-height: 60px;
 	margin-bottom: 3px;
 	color: #fff;
 }
-#topimage h2{
+
+#topimage h2 {
 	font-size: 30px;
 	line-height: 35px;
 	margin-top: 0px;
 	margin-left: 2px;
 	color: #fff;
 }
-#topimage h3{
+
+#topimage h3 {
 	font-size: 12px;
 	line-height: 16px;
 	margin-top: 40px;
@@ -131,12 +153,13 @@ span.email:hover{
 	font-weight: normal;
 	color: #fff;
 }
-#topimage h3 a{
+
+#topimage h3 a {
 	color: #fff;
 }
 
-#topmenu{
-	float:left;
+#topmenu {
+	float: left;
 	width: 100%;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
@@ -144,37 +167,42 @@ span.email:hover{
 	margin: 0px;
 	padding: 0px;
 }
-#topmenu ul{
+
+#topmenu ul {
 	float: left;
 	margin: 0px;
 	padding: 0px;
 }
-#topmenu li{
-	float:left;
-	margin:0px;
-	padding:0px;
-	list-style:none;
+
+#topmenu li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: #cfcfcf;
-	font-size:12px;
+	font-size: 12px;
 }
-#topmenu li a{
+
+#topmenu li a {
 	float: left;
 	margin: 0px;
 	padding: 29px 12px 7px 12px;
 }
-#topmenu li a:hover{
+
+#topmenu li a:hover {
 	color: #124e13;
 	background-color: #eee;
 	text-decoration: none;
 }
-#topmenu li#currentpage a{
+
+#topmenu li#currentpage a {
 	color: #124e13;
 	background-color: #ddd;
 }
 
-#content{
+#content {
 	background-color: #fff;
 	margin: 0px;
 	padding-top: 15px;
@@ -183,18 +211,21 @@ span.email:hover{
 	padding-left: 20px;
 	overflow: hidden;
 }
-#content p{
+
+/*#content p {
 	margin-left: 20px;
 	margin-right: 60px;
 }
-#content h2{
-	margin-left: 10px;
-}
-#content h3{
+
+#content h2 {
 	margin-left: 10px;
 }
 
-#content img{
+#content h3 {
+	margin-left: 10px;
+}*/
+
+#content img {
 	float: left;
 	clear: both;
 	margin-right: 10px;
@@ -202,18 +233,21 @@ span.email:hover{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-#content img.leftimage{
+
+#content img.leftimage {
 	float: left;
 	clear: both;
 	margin-right: 30px;
 }
-#content img.rightimage{
+
+#content img.rightimage {
 	float: right;
 	clear: both;
 	margin-left: 30px;
 	margin-right: 0px;
 }
-#content img.logo{
+
+#content img.logo {
 	float: left;
 	clear: none;
 	margin-right: 10px;
@@ -221,20 +255,22 @@ span.email:hover{
 	height: 80px;
 }
 
-#content table{
+#content table {
 	border: none;
 	margin-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
-#content table td{
+
+#content table td {
 	padding: 10px 0px 0px 15px;
 }
-#content table td.headercol{
+
+#content table td.headercol {
 	font-weight: bold;
 }
 
-#map{
+#map {
 	float: right;
 	clear: both;
 	margin-left: 30px;
@@ -259,26 +295,10 @@ span.email:hover{
 	border-bottom-color: #cfcfcf;
 	text-align: center;
 	font-size: 10px;
-	line-height:12px;
+	line-height: 12px;
 	clear: both;
 }
 
-address{
+address {
 	font-style: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
