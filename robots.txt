@@ -1,2 +1,2 @@
 
-Sitemap: https://helen.thompson-rye.com/sitemap.xml
+Sitemap: https://timjrye.github.io/helen-website/sitemap.xml
